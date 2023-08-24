@@ -1,5 +1,6 @@
 import CoreData
 
+@available(iOS 10.0, *)
 public extension NSPersistentContainer {
     /**
      Syncs the entity using the received array of dictionaries, maps one-to-many, many-to-many and one-to-one relationships.
@@ -174,6 +175,7 @@ public extension NSPersistentContainer {
     }
 }
 
+@available(iOS 10.0, *)
 public extension Sync {
     /**
      Syncs the entity using the received array of dictionaries, maps one-to-many, many-to-many and one-to-one relationships.
